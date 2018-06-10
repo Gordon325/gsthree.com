@@ -1,0 +1,13 @@
+---
+title: Home Page
+layout: default
+---
+
+{% for post in page.posts %}
+
+<div class=posts>
+  <h1>{{ post.title }}</h1>
+  <p>{{ post.content}}</p>
+</div>
+
+{% endfor %}
