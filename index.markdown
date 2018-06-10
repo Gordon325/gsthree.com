@@ -12,8 +12,8 @@ layout: default
 {% for post in page.posts %}
 
 <div class="singlePosts">
-  <h1>{{ post.title }}</h1>
-  <p>{{ post.content }}</p>
+<h1>{{ post.title }}</h1>
+<p>{{ post.content }}</p>
 </div>
 
 {% endfor %}
