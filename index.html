@@ -2,15 +2,15 @@
 layout: default
 ---
 
-<h1> {{ site.title }} </h1>
+<h1 class="title"> {{ site.title }} </h1>
 
 
 <div class="posts">
 	{% for post in site.posts %}
-		<div class="post">
-			<div class="post-content">
+		<div class="post columns">
+			<div class="post-content column">
 				<p class="date">{{ post.date | date: '%B %d, %Y' }}</p>
-				<h3>{{ post.title }}</h3>
+				<h3 class="subtitle">{{ post.title }}</h3>
 
 				{{ post.content }}
 
