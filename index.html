@@ -6,8 +6,6 @@ layout: default
 
 <div class="darker">
 	<div class="container">
-		<h2 class="editable">Updates</h2>
-		<p class="editor-link"><a href="cloudcannon:collections/_posts" class="btn"><strong>&#9998;</strong> Add Update</a></p>
 		<div class="posts">
 			{% for post in site.posts %}
 				<div class="post">
@@ -16,7 +14,7 @@ layout: default
 						<h3>{{ post.title }}</h3>
 
 						{{ post.content }}
-                        
+
 					</div>
 				</div>
 			{% endfor %}
