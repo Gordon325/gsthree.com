@@ -3,4 +3,18 @@ title: index
 date: 2018-06-10 06:30:00 Z
 ---
 
-blah blah
+---
+title: Home Page
+layout: default
+---
+
+<div class="posts">
+{% for post in page.posts %}
+
+<div class="singlePosts">
+  <h1>{{ post.title }}</h1>
+  <p>{{ post.content }}</p>
+</div>
+
+{% endfor %}
+</div>
