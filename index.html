@@ -4,13 +4,22 @@ layout: default
 
 <h1> {{ site.title }} </h1>
 
-<div class="posts">
+<div class="darker">
+	<div class="container">
+		<h2 class="editable">Updates</h2>
+		<p class="editor-link"><a href="cloudcannon:collections/_posts" class="btn"><strong>&#9998;</strong> Add Update</a></p>
+		<div class="posts">
+			{% for post in site.posts %}
+				<div class="post">
+					<div class="post-content">
+						<p class="date">{{ post.date | date: '%B %d, %Y' }}</p>
+						<h3>{{ post.title }}</h3>
 
-{% for posts in site.post %}
-
-<h1> {{ post.title }} </h1>
-    {{ post.content }}
-
-{% endfor %}
-
+						{{ post.content }}
+                        
+					</div>
+				</div>
+			{% endfor %}
+		</div>
+	</div>
 </div>
