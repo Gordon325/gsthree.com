@@ -1,4 +1,4 @@
-html {
+html, body {
     background: url("https://www.toptal.com/designers/subtlepatterns/patterns/topography.png");
   background-attachment: fixed;
 }
