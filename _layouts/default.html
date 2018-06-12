@@ -26,6 +26,9 @@
             <img src="img/kiddoLogo.png" alt="kiddo logo">
         </a>
     </div>
+    {% for page in site.pages %}
+    <a href="{{page.url}}">{{page.title}}</a>
+    {% endfor %}
 </div>
    <div class="myContent"> 
 
