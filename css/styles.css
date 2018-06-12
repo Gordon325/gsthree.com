@@ -5,17 +5,17 @@
     margin-top: 50px;
 }
 
-myNav{
+.myNav{
     display: flex;
 }
 
-menuItems {
+.menuItems {
     max-height: 52px;
     padding-right: 20px;
     padding-left: 20px;
 }
 
-menuItems:hover {
+.menuItems:hover {
     background: white;
     color: black;
 }
