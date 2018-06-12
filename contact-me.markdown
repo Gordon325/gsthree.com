@@ -10,7 +10,7 @@ phone: 509.385.2976
 <div class="header">
 
 
-<h1>Contact Me</h1>
+<h1 class="title is-3">Contact Me</h1>
 
 
 </div>
@@ -20,6 +20,9 @@ phone: 509.385.2976
 
 <p>{{ page.phone }}</p>
 
+</div>
+
+<div class="info">
 
 <p>{{ page.email }}</p>
 
