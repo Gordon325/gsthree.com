@@ -17,10 +17,10 @@ phone: 509.385.2976
 <div class="info">
 
 
-<p>{{ phone }}</p>
+<p>{{ page.phone }}</p>
 
 
-<p>{{ email }}</p>
+<p>{{ page.email }}</p>
 
 
 </div>
