@@ -6,8 +6,8 @@ layout: default
 	    {% for post in site.posts %}
 		    	<div class="column skills">
 			    	<img src="{{ post.featureImage }}" class="featureImage">
-				    <h3 class="title is-4 skillsDesc">{{ post.title }}</h3>
-                    <p class="content is-small">{{ post.content }}</p>
+				    <h3 class="title is-4 skillsDesc">{{post.title}}</h3>
+                    <div class="content is-small">{{post.content}}</div>
 			    </div>
     	{% endfor %}
     </div>    
