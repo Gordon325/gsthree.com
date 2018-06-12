@@ -1,8 +1,14 @@
+html {
+    background: url("https://www.toptal.com/designers/subtlepatterns/patterns/topography.png");
+  background-attachment: fixed;
+}
+
 .myContent{
     display: block;
     width: 850px;
     margin: auto;
     margin-top: 50px;
+    background: rgba(255, 255, 255, .8)
 }
 
 .myNav{
