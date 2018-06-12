@@ -17,7 +17,7 @@
     border-radius: 0px;
 }
 
-menuItems:hover {
+.button.is-black:hover {
     background: white;
     color: black;
 }
