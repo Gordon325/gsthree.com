@@ -28,12 +28,8 @@ html, body {
     color: black;
 }
 
-div.contactHeader {
-    margin-bottom: 30px;
-}
-
-div.contactInfo {
-    margin-bottom: 15px;
+.contactDiv {
+    max-width: 500px;
 }
 
 .column {
