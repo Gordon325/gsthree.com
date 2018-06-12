@@ -29,7 +29,7 @@
     </div>
     {% for page in site.pages %}
         {% if page.category contains 'myPage' %}
-            <a class="button is-black menuItems" href="{{page.url}}">{{page.title}}</a>
+            <a class="button is-black is-hovered menuItems" href="{{page.url}}">{{page.title}}</a>
         {% endif %}
     {% endfor %}
 </nav>
