@@ -17,18 +17,18 @@ phone: 509.385.2976
 
 <div class="contactInfo">
 
-<i class="fa fa-phone" aria-hidden="true"></i>
 
-<p>{{ page.phone }}</p>
+
+<p><i class="fa fa-phone" aria-hidden="true"></i> {{ page.phone }}</p>
 
 </div>
 
-<i class="fa fa-envelope" aria-hidden="true"></i>
+
 
 
 <div class="contactInfo">
 
-<a href="mailto:{{page.email}}"><p>{{ page.email }}</p></a>
+<a href="mailto:{{page.email}}"><p><i class="fa fa-envelope" aria-hidden="true"></i> {{ page.email }}</p></a>
 
 
 </div>

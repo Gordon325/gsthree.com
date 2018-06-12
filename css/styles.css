@@ -22,10 +22,10 @@
     color: black;
 }
 
-.contactHeader {
-    margin-bottom: 45px;
+div.contactHeader {
+    margin-bottom: 30px;
 }
 
-.contactInfo {
+div.contactInfo {
     margin-bottom: 15px;
 }
