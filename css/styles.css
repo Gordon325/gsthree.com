@@ -35,3 +35,7 @@ div.contactHeader {
 div.contactInfo {
     margin-bottom: 15px;
 }
+
+.skillsList {
+    max-width: 175px;
+}
