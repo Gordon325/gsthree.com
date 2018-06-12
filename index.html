@@ -5,7 +5,7 @@ layout: default
     <div class="columns">
 	    {% for post in site.posts %}
 		    	<div class="column">
-			    	<p class="date">{{ post.date | date: '%B %d, %Y' }}</p>
+			    	<img class="featureImage">{{ post.featureImage }}>
 				    <h3 class="subtitle">{{ post.title }}</h3>
 				    {{ post.content }}
 			    </div>
