@@ -7,7 +7,6 @@ email: GordonGSmithiii@gmail.com
 phone: 509.385.2976
 ---
 
-
 <div class="contactDiv">
 
 <div class="contactHeader" style="margin-bottm: 35px;">
