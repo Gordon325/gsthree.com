@@ -59,3 +59,8 @@ html, body {
 .myName {
     margin-bottom: 12px;
 }
+
+.splashImage {
+    border-bottom: 1px solid #e4e4e4;
+    margin-bottom: 50px;
+}
