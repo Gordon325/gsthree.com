@@ -30,8 +30,17 @@ html, body {
 
 .contactDiv {
     max-width: 500px;
+    margin: auto;
 }
 
 .column {
     padding: 1.25rem;
+}
+
+.contactHeader {
+    margin-bottom: 35px;
+}
+
+.contactInfo {
+    margin-bottom: 15px;
 }

@@ -10,7 +10,7 @@ phone: 509.385.2976
 
 <div class="contactDiv">
 
-<div class="contactHeader" style="margin-bottm: 35px;">
+<div class="contactHeader">
 
 
 <h1 class="title is-3">Contact Me</h1>
@@ -19,7 +19,7 @@ phone: 509.385.2976
 
 </div>
 
-<div class="contactInfo" style="margin-bottm: 15px;">
+<div class="contactInfo">
 
 
 <p><i class="fa fa-phone" aria-hidden="true"></i> {{ page.phone }}</p>
@@ -29,7 +29,7 @@ phone: 509.385.2976
 
 
 
-<div class="contactInfo" style="margin-bottm: 15px;">
+<div class="contactInfo">
 
 <a href="mailto:{{page.email}}"><p><i class="fa fa-envelope" aria-hidden="true"></i> {{ page.email }}</p></a>
 
