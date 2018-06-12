@@ -49,3 +49,7 @@ html, body {
     display: flex;
     justify-content: space-between;
 }
+
+.addiMe {
+    max-width: 900px;
+}
