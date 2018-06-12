@@ -17,10 +17,14 @@ phone: 509.385.2976
 
 <div class="info">
 
+<i class="fa fa-phone" aria-hidden="true"></i>
 
 <p>{{ page.phone }}</p>
 
 </div>
+
+<i class="fa fa-envelope" aria-hidden="true"></i>
+
 
 <div class="info">
 
