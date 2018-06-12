@@ -5,7 +5,7 @@ layout: default
     <div class="columns">
 	    {% for post in site.posts %}
 		    	<div class="column">
-			    	<img class="featureImage">{{ post.featureImage }}>
+			    	<img src="{{ post.featureImage }}" class="featureImage">>
 				    <h3 class="subtitle">{{ post.title }}</h3>
 				    {{ post.content }}
 			    </div>
