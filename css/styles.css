@@ -5,6 +5,7 @@ html, body {
 
 .myContent{
     display: block;
+    width: 100%;
     max-width: 900px;
     margin: auto;
     margin-top: 50px;
@@ -51,5 +52,6 @@ html, body {
 }
 
 .addiMe {
+    width: 100%;
     max-width: 900px;
 }
