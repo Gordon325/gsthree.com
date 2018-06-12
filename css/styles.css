@@ -55,3 +55,7 @@ html, body {
     width: 100%;
     max-width: 900px;
 }
+
+.myName {
+    margin-bottom: 12px;
+}
