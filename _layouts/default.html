@@ -20,7 +20,7 @@
   </head>
   
   <body>
-<nav class="navbar is-black">
+<nav class="navbar is-black myNav">
     <div class="navbar-brand">
         <a class="navbar-item" href="https://www.gsthree.com">
             <img src="/assets/kiddoLogo.png" alt="kiddo logo">
@@ -28,7 +28,7 @@
     </div>
     {% for page in site.pages %}
         {% if page.category contains 'myPage' %}
-            <a class="button is-black" href="{{page.url}}">{{page.title}}</a>
+            <a class="button is-black menuItems" href="{{page.url}}">{{page.title}}</a>
         {% endif %}
     {% endfor %}
 </nav>
