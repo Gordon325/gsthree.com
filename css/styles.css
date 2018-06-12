@@ -21,3 +21,11 @@
     background: white;
     color: black;
 }
+
+.contactHeader {
+    margin-bottom: 45px;
+}
+
+.contactInfo {
+    margin-bottom: 15px;
+}

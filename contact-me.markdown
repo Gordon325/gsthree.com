@@ -7,7 +7,7 @@ email: GordonGSmithiii@gmail.com
 phone: 509.385.2976
 ---
 
-<div class="header">
+<div class="contactHeader">
 
 
 <h1 class="title is-3">Contact Me</h1>
@@ -15,7 +15,7 @@ phone: 509.385.2976
 
 </div>
 
-<div class="info">
+<div class="contactInfo">
 
 <i class="fa fa-phone" aria-hidden="true"></i>
 
@@ -26,9 +26,9 @@ phone: 509.385.2976
 <i class="fa fa-envelope" aria-hidden="true"></i>
 
 
-<div class="info">
+<div class="contactInfo">
 
-<p>{{ page.email }}</p>
+<a href="mailto:{{page.email}}"><p>{{ page.email }}</p></a>
 
 
 </div>
