@@ -73,3 +73,7 @@ html, body {
 .featureImage {
     max-width: 60px;
 }
+
+.aboutMe {
+    border-bottom: 1px solid #e4e4e4
+}
