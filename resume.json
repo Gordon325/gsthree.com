@@ -1,0 +1,132 @@
+{
+  "basics": {
+    "name": "Gordon G Smith III",
+    "label": "UX Designer",
+    "picture": "",
+    "email": "GordonGSmithiii@gmail.com",
+    "phone": "509.385.2976",
+    "website": "http://www.gsthree.com",
+    "summary": "Hello! I'm Gordon, I am from Spokane Washington where I live with my wife and daughter. I am a designer with an emphasis on UX design. I enjoy UX because it allows me to utilize many aspects of design. Everything from research, to layout, to development is encompassed in UX and that is what has pushed me in this direction",
+    "location": {
+      "address": "1326 W Columbia Ave",
+      "postalCode": "99205",
+      "city": "Spokane",
+      "countryCode": "US",
+      "region": "Washington"
+    },
+    "profiles": [
+      {
+        "network": "Dribbble",
+        "username": "gsthree",
+        "url": "www.dribbble.com/gsthree"
+      },
+      {
+        "network": "Instagram",
+        "username": "g.s.three",
+        "url": "www.instagram.com/g.s.three"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Eastern Washington University",
+      "position": "Media Specialist",
+      "website": "www.ewu.edu/imsports",
+      "startDate": "Sept. 2017",
+      "endDate": "Current",
+      "summary": "EWU's Intramural Sports department hosts many sporting events and recreational leagues on campus. While working for EWU I have created multiple posters and other marketing items to help promote events and leagues. I have also been in charge of migrating the I.M. Sports page from it's old CMS to their new Wordpress platform. ",
+      "highlights": [
+        "Created many posters to help draw higher attendance to on campus events and leagues",
+        "Assisted in migrating the old EWU website from its previous content management system to their new Wordpress website"
+      ]
+    },
+    {
+      "company": "Parkview Early Learning Center",
+      "position": "Program Supervisor/In-house Designer",
+      "website": "www.parkviewelc.com",
+      "startDate": "Aug. 2015",
+      "endDate": "Current",
+      "summary": "Parkview Early Learning Center is a high quality childcare center in North Spokane. While at Parkview I have been lucky to take on many roles, from teacher, to administration, to most recently given the opportunity to work on our website and promotional/marketing material. ",
+      "highlights": [
+        "Reworked company logo to fit a more modern asthetic",
+        "Created website, t-shirts, and multiple other design materials",
+        "Managed employees and day to day procedures to ensure our center was meeting all state and local standards of care. "
+      ]
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "Eastern Washington University",
+      "area": "Visual Communication Design",
+      "studyType": "Bachelor",
+      "startDate": "Sept. 2016",
+      "endDate": "Dec. 2018",
+      "gpa": "3.93/4.0",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "UX Development",
+      "level": "Master",
+      "keywords": [
+        "Research",
+        "Userflows & Cardsorting",
+        "Wireframes",
+        "Sketch App"
+      ]
+    },
+    {
+      "name": "Graphic Design",
+      "level": "Master",
+      "keywords": [
+        "Illustrator",
+        "Photoshop",
+        "Indesign",
+        "Typeography"
+      ]
+    },
+    {
+      "name": "Web Design",
+      "level": "Novice",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Outdoor Adventures",
+      "keywords": [
+        "Snowboarding",
+        "Skateboarding",
+        "Kayaking",
+        "Climbing"
+      ]
+    },
+    {
+      "name": "Ice Hockey",
+      "keywords": [
+        "Watching",
+        "Playing"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Luc Jasmin",
+      "reference": "Parkview ELC"
+    }
+  ]
+}
