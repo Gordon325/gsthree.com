@@ -7,9 +7,9 @@ category: myPage
 
 
 <div class="grid">
-{% for content in site.portfolio  %}
+{% for post in site.portfolio  %}
   <div class="grid-item">
-    <img src="{{ portfolio.img }}"></img>
+    <img src="{{ portfolio.image }}"></img>
   </div>
 {% endfor %}  
 </div>
