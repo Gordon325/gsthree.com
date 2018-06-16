@@ -23,7 +23,8 @@ html, body {
     max-width: 200px;
     float: left;
     border-radius: 5px;
-  }
+    margin-left: 25px;
+}
 .myNav{
     display: flex;
 }
