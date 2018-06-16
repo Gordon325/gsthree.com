@@ -25,7 +25,7 @@ category: myPage
     <img src="/uploads/RotateGif-04.gif">
   </div>
     <div class="grid-item">
-    <img src="/uploads/KiddoD-03.tif">
+    <img src="/uploads/18193213_1165904096871686_752280951742267128_o.jpg">
   </div>
     <div class="grid-item">
     <img src="/uploads/facebookBanner-01.png">
@@ -43,3 +43,4 @@ category: myPage
     <img src="/uploads/climb%20chart-01.png">
   </div>
 </div>
+
