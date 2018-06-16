@@ -6,9 +6,7 @@ category: myPage
 ---
 
 <div class="grid">
-{% for post in site.portfolio  %}
   <div class="grid-item">
-    <img src="{{ portfolio.image }}"></img>
+    <img src="/uploads/23844572_370131560094768_2147258856741684065_n.jpg">
   </div>
-{% endfor %}  
 </div>
