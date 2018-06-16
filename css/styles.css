@@ -3,6 +3,10 @@ html, body {
   background-attachment: fixed;
 }
 
+img {
+    border-radius: 10px;
+
+}
 .myContent{
     display: block;
     width: 100%;
@@ -25,10 +29,7 @@ html, body {
     margin: auto;
     background: rgba(255, 255, 255, .8)
 }
-.grid-item + img {
-    border-radius: 10px;
 
-}
 .grid-item {
     max-width: 200px;
     float: left;
