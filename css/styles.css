@@ -11,7 +11,14 @@ html, body {
     margin-top: 50px;
     background: rgba(255, 255, 255, .8)
 }
-
+.grid{
+    max-width: 900;
+}
+.grid-item {
+    max-width: 200px;
+    float: left;
+    border-radius: 5px;
+  }
 .myNav{
     display: flex;
 }
