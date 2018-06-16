@@ -4,3 +4,5 @@ $('.grid').masonry({
     horizontalOrder: true,
     gutter: 25
   });
+
+  console.log("hello world");

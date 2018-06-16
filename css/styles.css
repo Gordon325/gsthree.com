@@ -33,7 +33,7 @@ img {
 .grid-item {
     max-width: 200px;
     float: left;
-    margin: 25px;
+    margin-bottom: 25px;
 }
 .myNav{
     display: flex;
