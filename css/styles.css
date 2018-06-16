@@ -16,19 +16,8 @@ img {
     background: rgba(255, 255, 255, .8)
 }
 
-.masonryWrapper{
-    width: 100%;
-    max-width: 900px;
-    margin: auto;
-    background: rgba(255, 255, 255, .8)
-}
 
-.grid{
-    width: 100%;
-    max-width: 900px;
-    margin: auto;
-    background: rgba(255, 255, 255, .8)
-}
+
 
 .grid-item {
     max-width: 200px;
