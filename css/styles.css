@@ -12,7 +12,12 @@ html, body {
     background: rgba(255, 255, 255, .8)
 }
 .grid{
-    max-width: 900;
+    display: block;
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+    margin-top: 50px;
+    background: rgba(255, 255, 255, .8)
 }
 .grid-item {
     max-width: 200px;

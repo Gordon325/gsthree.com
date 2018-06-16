@@ -9,4 +9,37 @@ category: myPage
   <div class="grid-item">
     <img src="/uploads/23844572_370131560094768_2147258856741684065_n.jpg">
   </div>
+    <div class="grid-item">
+    <img src="/uploads/personal%20logo%20large-03.png">
+  </div>
+    <div class="grid-item">
+    <img src="/uploads/GetABinderPNG-02.png">
+  </div>
+    <div class="grid-item">
+    <img src="/uploads/u150-2.jpg">
+  </div>
+    <div class="grid-item">
+    <img src="/uploads/vtiLogo.png">
+  </div>
+    <div class="grid-item">
+    <img src="/uploads/RotateGif-04.gif">
+  </div>
+    <div class="grid-item">
+    <img src="/uploads/KiddoD-03.tif">
+  </div>
+    <div class="grid-item">
+    <img src="/uploads/facebookBanner-01.png">
+  </div>
+    <div class="grid-item">
+    <img src="/uploads/hoopInvitational2018.png">
+  </div>
+    <div class="grid-item">
+    <img src="/uploads/QuotesforaCause-01.png">
+  </div>
+    <div class="grid-item">
+    <img src="/uploads/shootoutPoster-01.png">
+  </div>
+      <div class="grid-item">
+    <img src="/uploads/climb%20chart-01.png">
+  </div>
 </div>
