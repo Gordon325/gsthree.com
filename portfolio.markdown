@@ -5,7 +5,6 @@ layout: default
 category: myPage
 ---
 
-
 <div class="grid">
 {% for content in site.portfolio  %}
   <div class="grid-item">
