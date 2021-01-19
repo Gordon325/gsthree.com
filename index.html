@@ -3,23 +3,15 @@ layout: default
 myName: Gordon G Smith III
 ---
 
-  <div class="splashImage">
-      <h1 class="myName title is-1">{{page.myName}}.</h1>
-      <img class="addiMe" src="/assets/meAndAddi.jpg" alt="addi and I">
-      <div class="attributes"><h1 class="subtitle is-4">Father.</h1><h1 class="subtitle is-4">Collector.</h1><h1 class="subtitle is-4">Designer.</h1></div>
-      
-  </div>
-  <div>
-    <h1 class="centerText title is-4">About Gordon</h1>
-    <p class="aboutMe centerText content is-small">Hey, I'm Gordon. I am a Graphic and UX/UI Designer in Spokane Washington. I have a passion for userexperience development and would love to help ensure your users are getting the best expereince out of your product as they can. Outside of work I am a through-and-though family man, I love going snowboarding and kayaking wth my wife and daughter, and I will convince my wife soon that our toddler needs her own skateboard before too long. </p>
-    <h1 class="centerText title is-4">What I Do</h1>
-    <div class="columns skillsList">
-	    {% for post in site.posts %}
-		    	<div class="column skills">
-			    	<img src="{{ post.featureImage }}" class="featureImage">
-				    <h3 class="title is-4 skillsDesc">{{post.title}}</h3>
-                    <div class="content is-small">{{post.content}}</div>
-			    </div>
-    	{% endfor %}
-    </div>    
+<div class="logoWrapper">
+  <img class="logo" src="https://i.imgur.com/ShVosch.png"></img>
+</div>
+
+<div class="frontWrapper">
+  <p class="header">Father | Husband | Creator</p> 
+</div>
+
+<div class="contactWrapper">
+  <a href="mailto:gordongsmithiii@gmail.com"class="contact">Contact Me</> 
+</div>
   
