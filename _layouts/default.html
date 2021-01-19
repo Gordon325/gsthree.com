@@ -11,44 +11,15 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     
-    <!--  Bulma -->
-    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
-    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/styles.css">
     
     
   </head>
   
   <body>
-<nav class="navbar is-black myNav">
-    <div class="navbar-brand">
-        <a class="navbar-item" href="https://www.gsthree.com">
-            <img src="/assets/kiddoLogo.png" alt="kiddo logo">
-        </a>
-    </div>
-    {% for page in site.pages %}
-        {% if page.category contains 'myPage' %}
-            <a class="button is-black menuItems" href="{{page.url}}">{{page.title}}</a>
-        {% endif %}
-    {% endfor %}
-</nav>
-   <div class="myContent"> 
 
-    {{ content }}
-     
-   </div>  
-  
-  <!-- JQuery -->
-  <script
-  src="https://code.jquery.com/jquery-3.3.1.js"
-  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-  crossorigin="anonymous"></script>
- 
-  <!-- Masonry -->
-  <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.js"></script>
-   <!-- My Scripts -->
-  <script src="/js/scripts.js"></script>
 
   </body>
 </html>   
