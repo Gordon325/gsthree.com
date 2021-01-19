@@ -1,92 +1,36 @@
-html, body {
-    background: url("https://www.toptal.com/designers/subtlepatterns/patterns/topography.png");
-  background-attachment: fixed;
+body {
+	background-color: black
 }
-
-img {
-    border-radius: 10px;
-
+p, a {
+	color: white;
+	font-size: 25px;
+	margin-top: 1px;
+	margin-bottom: 1px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	text-decoration: none
 }
-.myContent{
-    display: block;
-    width: 100%;
-    max-width: 900px;
-    margin: auto;
-    margin-top: 50px;
-    background: rgba(255, 255, 255, .8)
+.frontWrapper {
+	width: 100vw;
+	text-align: center;
+	padding-top: 50px
 }
-
-
-
-
-.grid-item {
-    max-width: 200px;
-    float: left;
-    margin-bottom: 25px;
+.contactWrapper {
+	width: 100vw;
+	text-align: center;
+	padding-top: 50px
 }
-.myNav{
-    display: flex;
+.contact {
+	font-size: 12.5pt
 }
-
-.button.is-black.menuItems {
-    max-height: 52px;
-    height: 52px;
-    padding-right: 20px;
-    padding-left: 20px;
-    border-radius: 0px;
+a: hover {
+	opacity: 70%;
+	text-decoration: none
 }
-
-.button.is-black:hover {
-    background: white;
-    color: black;
+.logoWrapper {
+	width: 100vw;
+	text-align: center;
+	padding-top: 250px
 }
-
-.contactDiv {
-    max-width: 500px;
-    margin: auto;
-}
-
-.column {
-    padding: 1.25rem;
-}
-
-.contactHeader {
-    margin-bottom: 35px;
-}
-
-.contactInfo {
-    margin-bottom: 15px;
-}
-
-.attributes {
-    display: flex;
-    justify-content: space-around;
-}
-
-.addiMe {
-    width: 100%;
-    max-width: 850px;
-    border-radius: 30px;
-    display: block;
-    margin: auto;
-    margin-bottom: 15px;
-}
-
-.myName {
-    margin-bottom: 12px !important;
-}
-
-.splashImage {
-    border-bottom: 1px solid #e4e4e4;
-    margin-bottom: 20px;
-    text-align: center;
-}
-
-.featureImage {
-    max-width: 60px;
-}
-
-.aboutMe {
-    border-bottom: 1px solid #e4e4e4;
-    padding-bottom: 27px;
+.logo {
+	width: 100px
 }
